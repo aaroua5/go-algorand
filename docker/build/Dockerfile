@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 ARG GOLANG_VERSION
 
 RUN apt-get update && apt-get install -y git libboost-all-dev wget sqlite3 autoconf build-essential shellcheck
