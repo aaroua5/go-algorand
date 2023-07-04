@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.10
 ARG ALGOD_INSTALL_TAR_FILE
 
 ENV PATH /root/node/bin:$PATH
