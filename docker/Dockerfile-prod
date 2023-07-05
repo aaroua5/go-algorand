@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 
 WORKDIR /root
 RUN apt update && apt install -y ca-certificates wget --no-install-recommends && \
